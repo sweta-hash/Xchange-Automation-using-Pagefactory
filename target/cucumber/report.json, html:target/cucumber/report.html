@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-16T12:21:21.470Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2169479000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tutorialsninja.automation.stepdef.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify if search property is giving valid result",
+        "description": "",
+        "id": "xchange-smoke-test;verify-if-search-property-is-giving-valid-result",
+        "after": [
+          {
+            "result": {
+              "duration": 1516000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tutorialsninja.automation.stepdef.Hooks.closeBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15469986000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login Xchange",
+            "match": {
+              "location": "com.tutorialsninja.automation.stepdef.login.open_the_Firefox_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3551559000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search for property",
+            "match": {
+              "location": "com.tutorialsninja.automation.stepdef.login.enter_the_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3029205000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get a search result",
+            "match": {
+              "location": "com.tutorialsninja.automation.stepdef.login.reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Xchange smoke test",
+    "description": "",
+    "id": "xchange-smoke-test",
+    "keyword": "Feature",
+    "uri": "classpath:FeatureFiles/loginPage.feature",
+    "tags": []
+  }
+]
